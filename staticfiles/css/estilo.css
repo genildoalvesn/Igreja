@@ -1,0 +1,19 @@
+.body {
+    background-color: yellow;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background: blue;
+    padding: 10px; /* Adiciona espaço interno */
+}
+
+.header img {
+    margin-right: 20px; /* Ajuste o valor conforme necessário */
+}
+
+.header h1 {
+    margin: 0;
+    color: black; /* Ajuste a cor do texto se necessário */
+}
