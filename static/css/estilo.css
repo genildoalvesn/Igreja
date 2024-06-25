@@ -34,26 +34,20 @@
     justify-content: space-between;
     gap: 10px;
 }
-#01 {
+#inicio, #sobre, #cadastro, #pesquisa, #ajuda {
     background-color: #696969; /* Cor de fundo específica para a div #01 */
-    padding: 10px; /* Espaçamento interno */
+    padding: 10px 20px; /* Espaçamento interno */
     margin: 5px; /* Espaçamento externo */
-    border: 1px solid #ccc; /* Opcional: borda para visualização */
+    border: none; /* Remover a borda padrão */
     text-align: center; /* Centralizar o texto */
     border-radius: 5px; /* Bordas arredondadas */
     flex: 1 1 calc(15% - 20px); /* Responsividade */
+    color: white; /* Cor do texto */
+    cursor: pointer; /* Mostrar cursor de ponteiro ao passar o mouse */
+    font-size: 16px; /* Tamanho da fonte */
+    transition: background-color 0.3s; /* Adiciona uma transição suave para a cor de fundo */
 }
- #02, #03, #04, #05 {
-    background: #4d5750; /* New background color */
-    padding: 5px; /* Espaçamento interno */
-    margin: 5px; /* Espaçamento externo entre as divs */
-    border: 20px solid #ccc; /* Opcional: borda para visualização */
-    text-align: center; /* Centralizar o texto */
-    border-radius: 5px; /* Bordas arredondadas */
-    width: 100px; /* New width */
-    height: 50px; /* New height */
-    font-size: 14px; /* New font size */
-}
+
 .carrossel{
 width:100px;
 height:50px
