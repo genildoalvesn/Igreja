@@ -55,6 +55,9 @@
     font-size: 14px; /* New font size */
 }
 .carrossel{
+width:100px;
+height:50px
+display: flex;
 
 }
 .carrossel items{
