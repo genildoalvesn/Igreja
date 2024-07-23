@@ -1,0 +1,62 @@
+.body {
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background: #03bb85;
+    padding: 10px; /* Adiciona espaço interno */
+}
+
+.header img {
+    margin-right: 20px; /* Ajuste o valor conforme necessário */
+}
+.header h1 {
+     padding-left: 50px;
+}
+
+.header h1 {
+    margin-left: 200px;
+    padding-left: 200px;
+    margin: 10;
+    color: black; /* Ajuste a cor do texto se necessário */
+}
+.interface {
+    display: flex;
+    align-items: center;
+    background: #add8e6;
+    padding: 5px; /* Adiciona espaço interno */
+}
+.container {
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+#01 {
+    background-color: #696969; /* Cor de fundo específica para a div #01 */
+    padding: 10px; /* Espaçamento interno */
+    margin: 5px; /* Espaçamento externo */
+    border: 1px solid #ccc; /* Opcional: borda para visualização */
+    text-align: center; /* Centralizar o texto */
+    border-radius: 5px; /* Bordas arredondadas */
+    flex: 1 1 calc(15% - 20px); /* Responsividade */
+}
+ #02, #03, #04, #05 {
+    background: #4d5750; /* New background color */
+    padding: 5px; /* Espaçamento interno */
+    margin: 5px; /* Espaçamento externo entre as divs */
+    border: 20px solid #ccc; /* Opcional: borda para visualização */
+    text-align: center; /* Centralizar o texto */
+    border-radius: 5px; /* Bordas arredondadas */
+    width: 100px; /* New width */
+    height: 50px; /* New height */
+    font-size: 14px; /* New font size */
+}
+.carrossel{
+
+}
+.carrossel items{
+
+}

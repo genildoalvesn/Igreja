@@ -1,0 +1,113 @@
+.body {
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background: #add8e6;
+    padding: 10px; /* Adiciona espaço interno */
+}
+.header > div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header img {
+    width: 100px; /* Ajusta a largura da imagem do logo */
+    height: auto; /* Mantém a proporção da imagem */
+}
+.header h1 {
+     padding-left: 50px;
+}
+
+.header h1 {
+    margin-left: 0px;
+    padding-left: 0px;
+    margin: 10;
+    color: black; /* Ajuste a cor do texto se necessário */
+}
+.interface {
+    display: flex;
+    align-items: center;
+    background: #03bb85;
+    padding: 5px; /* Adiciona espaço interno */
+}
+.container {
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.cultos {
+    text-align: center; /* Centraliza o texto dentro da div */
+    width: 100%; /* Garante que a div ocupe a largura completa do contêiner pai */
+}
+.navbar{
+
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+.nav-list{
+ margin-left: auto;
+ display: flex;
+ width:20%;
+ justify-content: space-evenly;
+
+}
+
+.list-items{
+
+display: flex;
+align-items: center;
+list-style-type: none;
+
+}
+.list-items i {
+    margin-left: 10px; /* Adiciona espaço entre os ícones */
+}
+
+
+.header .icons {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente os ícones */
+}
+
+.header .icons span {
+    font-size: 36px; /* Ajusta o tamanho do ícone */
+    color: red; /* Ajusta a cor do ícone */
+    margin-left: 10px; /* Adiciona espaço entre a imagem e os ícones */
+}
+
+#01 {
+    background-color: #696969; /* Cor de fundo específica para a div #01 */
+    padding: 10px; /* Espaçamento interno */
+    margin: 5px; /* Espaçamento externo */
+    border: 1px solid #ccc; /* Opcional: borda para visualização */
+    text-align: center; /* Centralizar o texto */
+    border-radius: 5px; /* Bordas arredondadas */
+    flex: 1 1 calc(15% - 20px); /* Responsividade */
+}
+ #02, #03, #04, #05 {
+    background: #4d5750; /* New background color */
+    padding: 5px; /* Espaçamento interno */
+    margin: 5px; /* Espaçamento externo entre as divs */
+    border: 20px solid #ccc; /* Opcional: borda para visualização */
+    text-align: center; /* Centralizar o texto */
+    border-radius: 5px; /* Bordas arredondadas */
+    width: 100px; /* New width */
+    height: 50px; /* New height */
+    font-size: 14px; /* New font size */
+}
+.carrossel{
+width:100px;
+height:50px
+display: flex;
+
+}
+.carrossel items{
+
+}
