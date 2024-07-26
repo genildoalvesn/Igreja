@@ -1,5 +1,5 @@
-.body {
-
+body {
+background-color: #e5e5e5;
 }
 
 .header {
@@ -36,7 +36,8 @@
 }
 .container {
      display: flex;
-    flex-wrap: wrap;
+    width:100%;
+    height: 50;
     justify-content: space-between;
     gap: 10px;
 }
@@ -81,33 +82,79 @@ list-style-type: none;
     color: red; /* Ajusta a cor do ícone */
     margin-left: 10px; /* Adiciona espaço entre a imagem e os ícones */
 }
+.rodape{
+  background-color: #add8e6;
+    padding: 20px;
+    color: black;
+    text-align: center;
+    width: 100%;
+    clear: both; /* Limpa os floats */
+}
+section.slider{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0 ;
 
-#01 {
-    background-color: #696969; /* Cor de fundo específica para a div #01 */
-    padding: 10px; /* Espaçamento interno */
-    margin: 5px; /* Espaçamento externo */
-    border: 1px solid #ccc; /* Opcional: borda para visualização */
-    text-align: center; /* Centralizar o texto */
-    border-radius: 5px; /* Bordas arredondadas */
-    flex: 1 1 calc(15% - 20px); /* Responsividade */
 }
- #02, #03, #04, #05 {
-    background: #4d5750; /* New background color */
-    padding: 5px; /* Espaçamento interno */
-    margin: 5px; /* Espaçamento externo entre as divs */
-    border: 20px solid #ccc; /* Opcional: borda para visualização */
-    text-align: center; /* Centralizar o texto */
-    border-radius: 5px; /* Bordas arredondadas */
-    width: 100px; /* New width */
-    height: 50px; /* New height */
-    font-size: 14px; /* New font size */
-}
-.carrossel{
-width:100px;
-height:50px
+.slider-content{
+width: 400%;
+height: auto;
 display: flex;
+}
+.slide-content input{
+    display: none;
+}
+.slide-box img{
+    width: 50%;
+    height: auto;
+    position: relative;
+    text-align: center;
 
 }
-.carrossel items{
+.nav-manual, .nav-auto{
+    position: absolute;
+    width: 100%;
+    margin-top: 35%;
+    display: flex;
+    justify-content: center;
+}
+.nav-manual .manual-btn, .nav-auto div{
+    border: 1px solid #ff0054;
+    padding 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.nav-manual .manual-btn:not(:last-child){
+    margin-right: 10px;
+}
+.nav-manual .manual-btn:hover{
+
+     background-color: #ff0054
+
+}
+#radio1:checked ~ .nav-auto .auto-btn1{
+    background-color: #ff0054;
+
+}
+#radio2:checked ~ .nav-auto .auto-btn1{
+    background-color: #ff0054;
+
+}
+#radio3:checked ~ .nav-auto .auto-btn1{
+    background-color: #ff0054;
+
+}
+#radio1:checked ~ .primeiro {
+    margin-left:0%;
+
+}
+#radio2:checked ~ .primeiro {
+    margin-left:-25%;
+
+}
+#radio3:checked ~ .primeiro {
+    margin-left:-50%;
 
 }
