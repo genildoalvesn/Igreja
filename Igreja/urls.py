@@ -19,6 +19,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('parahyba/teste', include('paginas.urls')),
+    path('home/', include('paginas.urls')),
 
 ]

@@ -7,72 +7,41 @@
     <title>Igreja Batista</title>
     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
     <link rel="stylesheet" href="{% static 'css/estilo.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="slide.js" defer></script>
 </head>
 <body class="body">
     <div class="header">
-        <img src="{% static 'image/igreja01.png' %}" width="100" alt=""/>
-        <div>
-            <h7>I G R E J A</h7>
-            <h5>BATISTA MISSIONÁRIA</h5>
-            <h7>MINISTÉRIO CRISTO VERDADE QUE LIBERTA</h7>
-        </div>
-        <ul class="nav-list">
+        <img src="{% static 'image/logo1.png' %}" style="width: 200px; height: auto;" alt="logo Igreja"/>
+
+          <ul class="nav-list">
             <li class="list-items">
                 <i class="fa fa-youtube-play" style="font-size:36px;color:red;"></i>
-                <i class="fa fa-instagram" style="font-size:36px;color:#3f729b"></i>
+                <i class="fa fa-instagram" style="font-size:36px;color:#FFFF00"></i>
                 <i class="fa fa-facebook" style="font-size:36px;color:darkblue"></i>
             </li>
         </ul>
     </div>
-
-    <div class="interface">
-        <div class="cultos">CULTOS TERÇAS 19:30 QUINTAS 19:30 SÁBADOS 19:30 E DOMINGOS 9:00 E 18:00</div>
+    <div class="video">
+        <video src="{% static './image/video1.MP4' %}" autoplay muted loop ></video>
     </div>
-
     <script src="{% static 'js/bootstrap.min.js' %}"></script>
-
-
-        <div class="slide-content">
-            <input type="radio" name="btn-radio" id="radio1">
-            <input type="radio" name="btn-radio" id="radio2">
-            <input type="radio" name="btn-radio" id="radio3">
-
-            <div class="slide-box primeiro" alt="slide1"><img src="{% static 'image/Screenshot_1.png' %}" alt=""></div>
-            <div class="slide-box"><img src="{% static 'image/Screenshot_2.png' %}" alt=""></div>
-            <div class="slide-box"><img src="{% static 'image/Screenshot_3.png' %}" alt=""></div>
-            <div class="slide-box"><img src="{% static 'image/Screenshot_4.png' %}" alt=""></div>
-            <div class="nav-auto">
-                <div class="auto-btn1"></div>
-                <div class="auto-btn2"></div>
-                <div class="auto-btn3"></div>
-            </div>
-
-            <div class="nav-manual">
-                <label for="radio1" class="manual-btn"></label>
-                <label for="radio2" class="manual-btn"></label>
-                <label for="radio3" class="manual-btn"></label>
-            </div>
-        </div>
-
-
     <div class="header rodape">
-        <img src="{% static 'image/igreja01.png' %}" width="100" alt=""/>
-        <div>
-            <h7>I G R E J A</h7>
-            <h5>BATISTA MISSIONÁRIA</h5>
-            <h7>MINISTÉRIO CRISTO VERDADE QUE LIBERTA</h7>
-        </div>
-        <p>R. Administrador Manoel Ângelo de Oliveira, 712 - Mangabeira VII,<br> João Pessoa - PB, 58058-000 <br>Copyright &copy; 2024 </p>
-        <ul class="nav-list">
+
+        <img src="{% static 'image/logo1.png' %}" style="width: 200px; height: auto;" alt="logo Igreja"/>
+
+        <p class="text" >R. Administrador Manoel Ângelo de Oliveira, 712 <br> Mangabeira VII, João Pessoa - PB, 58058-000 <br>Copyright &copy; 2024 </p>
+
+         <ul class="nav-list">
             <li class="list-items">
                 <i class="fa fa-youtube-play" style="font-size:36px;color:red;"></i>
-                <i class="fa fa-instagram" style="font-size:36px;color:#3f729b"></i>
+                <i class="fa fa-instagram" style="font-size:36px;color:#FFFF00"></i>
                 <i class="fa fa-facebook" style="font-size:36px;color:darkblue"></i>
             </li>
-        </ul>
+          </ul>
+
     </div>
 </body>
 </html>

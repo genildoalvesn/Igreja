@@ -1,11 +1,8 @@
-body {
-background-color: #e5e5e5;
-}
+
 
 .header {
     display: flex;
     align-items: center;
-    background: #add8e6;
     padding: 10px; /* Adiciona espaço interno */
 }
 .header > div {
@@ -15,35 +12,39 @@ background-color: #e5e5e5;
 
 
 .header img {
-    width: 100px; /* Ajusta a largura da imagem do logo */
+    width: 50px; /* Ajusta a largura da imagem do logo */
     height: auto; /* Mantém a proporção da imagem */
 }
 .header h1 {
-     padding-left: 50px;
+     padding-left: 200px;
 }
 
 .header h1 {
     margin-left: 0px;
     padding-left: 0px;
     margin: 10;
-    color: black; /* Ajuste a cor do texto se necessário */
+    color: white; /* Ajuste a cor do texto se necessário */
 }
 .interface {
     display: flex;
     align-items: center;
-    background: #03bb85;
     padding: 5px; /* Adiciona espaço interno */
 }
 .container {
-     display: flex;
+    display: flex;
     width:100%;
     height: 50;
     justify-content: space-between;
     gap: 10px;
 }
-.cultos {
-    text-align: center; /* Centraliza o texto dentro da div */
-    width: 100%; /* Garante que a div ocupe a largura completa do contêiner pai */
+.text{
+display:flex;
+flex-direction: row;
+justify-content: left;
+text-align: left;
+ color:white;
+   display: inline-block;
+    text-align: center;
 }
 .navbar{
 
@@ -83,13 +84,16 @@ list-style-type: none;
     margin-left: 10px; /* Adiciona espaço entre a imagem e os ícones */
 }
 .rodape{
-  background-color: #add8e6;
+
     padding: 20px;
-    color: black;
-    text-align: center;
+    color: white;
+    text-align: left;
     width: 100%;
+    margin-top:31%;
     clear: both; /* Limpa os floats */
 }
+
+
 section.slider{
     margin: 0 auto;
     width: 100%;
@@ -119,8 +123,9 @@ display: flex;
     display: flex;
     justify-content: center;
 }
+
 .nav-manual .manual-btn, .nav-auto div{
-    border: 1px solid #ff0054;
+    border: 1px solid white;
     padding 10px;
     border-radius: 50%;
     cursor: pointer;
@@ -131,30 +136,29 @@ display: flex;
 }
 .nav-manual .manual-btn:hover{
 
-     background-color: #ff0054
+     background-color: white;
 
 }
-#radio1:checked ~ .nav-auto .auto-btn1{
-    background-color: #ff0054;
+
+video{
+
+     width: 110%;
+     height: 110%;
+     position: absolute;
+     height:100vh;
+     width:100vw;
+     top:0;
+     left:0;
+     z-index:-1;
+     object-fit: cover;
 
 }
-#radio2:checked ~ .nav-auto .auto-btn1{
-    background-color: #ff0054;
-
+.logo{
+filter: brightness(100);
+position: fixed;
+width:48opx;
 }
-#radio3:checked ~ .nav-auto .auto-btn1{
-    background-color: #ff0054;
-
-}
-#radio1:checked ~ .primeiro {
-    margin-left:0%;
-
-}
-#radio2:checked ~ .primeiro {
-    margin-left:-25%;
-
-}
-#radio3:checked ~ .primeiro {
-    margin-left:-50%;
-
+.header.rodape p {
+    margin: 10px 255;
+    text-align:center;
 }
